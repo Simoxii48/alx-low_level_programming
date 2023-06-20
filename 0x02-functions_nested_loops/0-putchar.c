@@ -1,7 +1,8 @@
 #include"main.h"
 /**
- *for betty style Docs 
- *  print every single char and a new line
+ * main function
+ * prints the chars one by one and a new line
+ * Return: 0
  */
 
 int main(void)
