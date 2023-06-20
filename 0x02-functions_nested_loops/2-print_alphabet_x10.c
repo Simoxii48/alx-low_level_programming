@@ -1,6 +1,7 @@
 #include"main.h"
-/*
+/**
  *print_alphabet_10x will print from a to z in 10 lines
+ *
  */
 
 void print_alphabet_x10(void)
