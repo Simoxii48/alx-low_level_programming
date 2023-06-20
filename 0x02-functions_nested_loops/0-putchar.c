@@ -1,6 +1,11 @@
-#include<stdio.h>
-int main(void)
+#include "main.h"
+
+int main (void)
 {
-	printf("_putchar");
+	_putchar('_'); 
+	_putchar('p');	
+	_putchar('u');	
+	_putchar('t');	
+	_putchar('\n');	
 	return 0;
 }
