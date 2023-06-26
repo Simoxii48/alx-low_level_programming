@@ -1,20 +1,20 @@
-#include"main.h"
-#include<string.h>
+#include "main.h"
+
 /**
- * puts2 - function to print modulus of a string
- * @str: is the string to check
+ *puts2 -Prints every other character of a string, starting with the first one
+ * @str: Input string
+ * Return: None
  */
 void puts2(char *str)
 {
+	int length = 0;
 	int i;
-	int j = strlen(str);
 
-	for (i = 0; i < j; i++)
-	{
-		if (str[i] % 2 == 0)
-		{
-			_putchar(str[i]);
-		}
-	}
+	while (str[length] != '\0')
+		length++;
+
+	for (i = 0; i < length; i += 2)
+		_putchar(str[i]);
+
 	_putchar('\n');
 }
