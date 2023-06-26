@@ -1,9 +1,10 @@
 #include"main.h"
 #include<string.h>
 /**
- *_strlen - function to know the length of the string comins as char*
- * @s: is the name of the string
+ * _strlen - Calculates the length of a string.
+ * @s: The input string.
  *
+ * Return: The length of the string.
  */
 int _strlen(char *s)
 {
